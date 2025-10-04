@@ -8,7 +8,12 @@ import {
   CardsSkeleton,
 } from "@/app/ui/skeletons";
 
+import { Metadata } from 'next';
 import { lusitana } from "@/app/ui/fonts";
+
+export const metadata: Metadata = {
+  title: 'Overview',
+};
 
 export default async function Page() {
 
